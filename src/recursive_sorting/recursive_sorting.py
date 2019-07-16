@@ -10,6 +10,14 @@ def merge( arrA, arrB ):
 # TO-DO: implement the Merge Sort function below USING RECURSION
 def merge_sort( arr ):
     # TO-DO
+    x = int(len(arr)/2)
+
+    if x == 0:
+        return []
+
+    arrA = arr[:x]
+    arrB = arr[x:]
+    
 
     return arr
 
